@@ -1,0 +1,85 @@
+{
+  "src/components/Tabs/index.js": {
+    "description": "<Tabs selected=\"0\">\n        <Tab label=\"Tab 1\">\n            <p>This is my tab 1 contents!</p>\n        </Tab>\n        <Tab label=\"Tab 2\">\n            <p>This is my tab 2 contents!</p>\n        </Tab>\n        <Tab label=\"Disabled tab\" disabled>\n            <p>This is my tab 3 contents!</p>\n        </Tab>\n    </Tabs>",
+    "displayName": "Tabs",
+    "methods": [
+      {
+        "name": "setStyles",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "ref",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "renderTitles",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "renderContent",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "handleClick",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "index",
+            "type": null
+          },
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "selected": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "indicatorclass": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "children": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "array"
+            },
+            {
+              "name": "element"
+            }
+          ]
+        },
+        "required": true,
+        "description": ""
+      }
+    }
+  },
+  "src/components/Tabs/tab.js": {
+    "description": "",
+    "methods": []
+  }
+}
