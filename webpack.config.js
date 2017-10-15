@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/App.js",
   devtool: "cheap-module-source-map",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "dist/static/"),
     filename: "bundle.js",
     publicPath: "/static/"
   },

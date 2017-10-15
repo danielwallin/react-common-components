@@ -1,10 +1,13 @@
 {
   "name": "react-components",
   "version": "1.0.0",
-  "description": "",
+  "description": "React common components",
+  "homepage": "http://danielwallin.github.io/react-common-components",
   "main": "index.js",
   "scripts": {
     "serve": "webpack-dev-server --hot",
+    "build": "webpack -p --progress && cp src/index.html dist/",
+    "deploy": "gh-pages -d dist",
     "docs": "react-docgen src/components -o src/docs/out.json --pretty --ignore Sidebar --ignore Modal"
   },
   "author": "",
@@ -17,6 +20,7 @@
     "react-html-parser": "^2.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "autoprefixer": "^6.5.4",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
