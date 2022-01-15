@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^4.0.2",
-    "marked": "^0.3.6",
+    "marked": "^4.0.10",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-html-parser": "^2.0.1"
