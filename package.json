@@ -29,7 +29,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "classnames": "^2.2.5",
     "css-loader": "^0.28.7",
-    "express": "^4.13.4",
+    "express": "^4.17.3",
     "node-sass": "^4.5.3",
     "nodemon": "^1.12.1",
     "react-docgen": "^2.18.0",
